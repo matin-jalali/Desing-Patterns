@@ -6,7 +6,7 @@ find_package(Boost 1.56 REQUIRED COMPONENTS iostreams)
 
 include_directories(solid/single_responsibility)
 
-#add_subdirectory(solid)
+add_subdirectory(builder)
 
 add_executable(Desing_Patterns
     main.cpp
