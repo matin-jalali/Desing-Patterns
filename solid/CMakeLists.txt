@@ -1,2 +1,2 @@
 add_library(solid
-	single_responsiblity.hpp)
+    single_responsibility/single_responsibility.hpp)
