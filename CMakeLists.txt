@@ -13,4 +13,5 @@ add_executable(Desing_Patterns
     solid/single_responsibility/single_responsibility.hpp
     solid/open_close/open_close.hpp
     solid/liskov/liskov.hpp
-    solid/interface/interface.hpp)
+    solid/interface/interface.hpp
+    solid/dependency/dependency.hpp)
