@@ -2,6 +2,7 @@
 #include "personjobbuilder.hpp"
 #include "personaddressbuilder.hpp"
 
+namespace builder {
 PersonAddressBuilder PersonBuilderBase::lives() const
 {
     return PersonAddressBuilder { person };
@@ -10,4 +11,5 @@ PersonAddressBuilder PersonBuilderBase::lives() const
 PersonJobBuilder PersonBuilderBase::works() const
 {
     return PersonJobBuilder { person };
+}
 }

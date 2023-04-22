@@ -11,10 +11,10 @@ void set_exit_value(int value) {
 #include "solid/interface/interface.hpp"
 #include "solid/dependency/dependency.hpp"
 /*builder*/
-//#include "builder/person.hpp"
-//#include "builder/personbuilder.hpp"
-//#include "builder/personjobbuilder.hpp"
-//#include "builder/personaddressbuilder.hpp"
+#include "builder/person.hpp"
+#include "builder/personbuilder.hpp"
+#include "builder/personjobbuilder.hpp"
+#include "builder/personaddressbuilder.hpp"
 
 int main() {
     SINGLE_RESPONSIBILITY::test();

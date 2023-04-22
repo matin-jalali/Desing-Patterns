@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 
+namespace builder {
 class PersonBuilder;
 class Person {
     // address
@@ -21,7 +22,7 @@ public:
     friend class PersonJobBuilder;
     friend class PersonAddressBuilder;
 };
-
+}
 //namespace BUILDER {
 //static void test(void) {
 

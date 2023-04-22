@@ -3,6 +3,7 @@
 #define PERSONBUILDER_HPP
 #include "person.hpp"
 
+namespace builder {
 class PersonAddressBuilder;
 class PersonJobBuilder;
 class PersonBuilderBase {
@@ -27,5 +28,6 @@ public:
     explicit PersonBuilder()
         : PersonBuilderBase {p} {}
 };
+}
 
 #endif // PERSONBUILDER_HPP
