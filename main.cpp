@@ -16,7 +16,8 @@ void set_exit_value(int value) {
 #include "builder/personjobbuilder.hpp"
 #include "builder/personaddressbuilder.hpp"
 
-#include "factory.hpp"
+#include "factory/factory.hpp"
+#include "factory/abstract/factory_creator.hpp"
 
 int main() {
     SINGLE_RESPONSIBILITY::test();
@@ -26,5 +27,6 @@ int main() {
     DEPENDENCY::test();
     BUILDER::test();
     FACTORY::test();
+    ABSTRACT_FACTORY::test();
     return ext;
 }

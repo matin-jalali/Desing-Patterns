@@ -24,9 +24,9 @@ public:
 
 
     //also we can use singletone
-    class PointFactory;
-    static PointFactory Factory;
-private:
+    //    class PointFactory;
+    //    static PointFactory Factory;
+    //private:
     //!
     //! \brief The PointFactory struct : its not good, since i've got private constructor.
     //! and also i've friend pointfactory struct that quash the OCP in solid design pattern
@@ -44,10 +44,10 @@ private:
 
 namespace FACTORY {
 static void test(void) {
-    //    auto cartesian = Point::PointFactory::NewCartesian(3,4);
-    //    auto polar = Point::PointFactory::NewPolar(5,6);
-    auto cartesian = Point::Factory.NewCartesian(3,4);
-    auto polar = Point::Factory.NewPolar(5,6);
+    auto cartesian = Point::PointFactory::NewCartesian(3,4);
+    auto polar = Point::PointFactory::NewPolar(5,6);
+    //    auto cartesian = Point::Factory.NewCartesian(3,4);
+    //    auto polar = Point::Factory.NewPolar(5,6);
     std::cout << "cartesian: " << cartesian << '\n' << "polar: " << polar << '\n';
     set_exit_value(0);
 }
