@@ -22,6 +22,6 @@ int main() {
     LISKOV::test();
     INTERFACE::test();
     DEPENDENCY::test();
-//    BUILDER::test();
+    BUILDER::test();
     return ext;
 }
