@@ -6,11 +6,12 @@ find_package(Boost 1.56 REQUIRED COMPONENTS iostreams)
 
 include_directories(solid/single_responsibility)
 
-#add_subdirectory(solid)
+add_subdirectory(builder)
 
 add_executable(Desing_Patterns
     main.cpp
     solid/single_responsibility/single_responsibility.hpp
     solid/open_close/open_close.hpp
     solid/liskov/liskov.hpp
-    solid/interface/interface.hpp)
+    solid/interface/interface.hpp
+    solid/dependency/dependency.hpp)
