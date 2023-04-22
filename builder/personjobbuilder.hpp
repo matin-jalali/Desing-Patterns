@@ -1,11 +1,13 @@
+#pragma once
 #ifndef PERSONJOBBUILDER_HPP
 #define PERSONJOBBUILDER_HPP
+#include "personbuilder.hpp"
 
-
-class PersonJobBuilder
-{
+class PersonJobBuilder : PersonBuilderBase {
+    typedef PersonJobBuilder Self;
 public:
-    PersonJobBuilder();
+    explicit PersonJobBuilder(Person& person)
+        : PersonBuilderBase{person} {}
 };
 
 #endif // PERSONJOBBUILDER_HPP
