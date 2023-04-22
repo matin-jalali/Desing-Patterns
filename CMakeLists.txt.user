@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.1, 2023-04-21T10:01:40. -->
+<!-- Written by QtCreator 4.13.1, 2023-04-21T21:37:26. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -227,7 +227,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseTerminal">false</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/matin/Documents/repository/build-Desing-Patterns-Desktop_Qt_5_12_10_GCC_64bit-Debug</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default"></value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

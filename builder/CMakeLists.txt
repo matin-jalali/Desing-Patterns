@@ -1,0 +1,9 @@
+add_library(builder
+    person.hpp
+    person.cc
+    personbuilder.hpp
+    personbuilder.cc
+    personaddressbuilder.hpp
+    personaddressbuilder.cc
+    personjobbuilder.hpp
+    personjobbuilder.cc)
