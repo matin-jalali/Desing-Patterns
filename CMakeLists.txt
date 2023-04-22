@@ -14,4 +14,8 @@ add_executable(Desing_Patterns
     solid/open_close/open_close.hpp
     solid/liskov/liskov.hpp
     solid/interface/interface.hpp
-    solid/dependency/dependency.hpp)
+    solid/dependency/dependency.hpp
+    factory/factory.hpp
+    factory/abstract/HotDrink.hpp
+    factory/abstract/HotDrinkFactory.hpp
+    factory/abstract/factory_creator.hpp)
