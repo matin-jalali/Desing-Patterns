@@ -4,7 +4,9 @@ set(CMAKE_CXX_STANDARD 20)
 
 find_package(Boost 1.56 REQUIRED COMPONENTS iostreams)
 
-include_directories(solid/single_responsibility)
+include_directories(solid/single_responsibility
+    prototype
+    )
 
 add_subdirectory(builder)
 
@@ -18,4 +20,8 @@ add_executable(Desing_Patterns
     factory/factory.hpp
     factory/abstract/HotDrink.hpp
     factory/abstract/HotDrinkFactory.hpp
-    factory/abstract/factory_creator.hpp)
+    factory/abstract/factory_creator.hpp
+    prototype/prototype.hpp
+    singletone/singletone.hpp)
+
+

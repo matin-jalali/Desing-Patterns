@@ -66,6 +66,7 @@ static void test(void) {
     auto tea = dvf.make_drink("tea");
     auto coffee = dvf.make_drink("coffee");
 
+    set_exit_value(0);
 
 }
 }
