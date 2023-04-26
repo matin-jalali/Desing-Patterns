@@ -23,6 +23,7 @@ add_executable(Desing_Patterns
     factory/abstract/factory_creator.hpp
     prototype/prototype.hpp
     singletone/singletone.hpp
-    bridge/bridge.hpp)
+    bridge/bridge.hpp
+    composite/geometric_shape.hpp)
 
 

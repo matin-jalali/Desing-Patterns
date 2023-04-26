@@ -23,6 +23,8 @@ void set_exit_value(int value) {
 
 #include "bridge/bridge.hpp"
 
+#include "composite/geometric_shape.hpp"
+
 int main() {
     SINGLE_RESPONSIBILITY::test();
     OPEN_CLOSE::test();
@@ -34,6 +36,8 @@ int main() {
     ABSTRACT_FACTORY::test();
     SINGLETON::test();
     BRIDGE::test();
+
+    GEOMETRIC_SHAPE::test();
 
     return ext;
 }
