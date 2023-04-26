@@ -22,6 +22,7 @@ add_executable(Desing_Patterns
     factory/abstract/HotDrinkFactory.hpp
     factory/abstract/factory_creator.hpp
     prototype/prototype.hpp
-    singletone/singletone.hpp)
+    singletone/singletone.hpp
+    bridge/bridge.hpp)
 
 
