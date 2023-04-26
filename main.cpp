@@ -19,6 +19,10 @@ void set_exit_value(int value) {
 #include "factory/factory.hpp"
 #include "factory/abstract/factory_creator.hpp"
 
+#include "singletone/singletone.hpp"
+
+#include "bridge/bridge.hpp"
+
 int main() {
     SINGLE_RESPONSIBILITY::test();
     OPEN_CLOSE::test();
@@ -28,5 +32,8 @@ int main() {
     BUILDER::test();
     FACTORY::test();
     ABSTRACT_FACTORY::test();
+    SINGLETON::test();
+    BRIDGE::test();
+
     return ext;
 }
